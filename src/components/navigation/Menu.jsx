@@ -8,9 +8,8 @@ export const Menu = () => {
   return (
     <div>
       <nav>
-        <Link  to="/"><Button className="buttonHome" type="primary">Home</Button></Link>
-        <Link to="/editpeople"></Link>
-        <Link to="/createpeople"></Link>
+        <Link  to="/"><Button className="buttonHome" type="primary">Inicio</Button></Link>
+        <Link to="/usuarios"><Button type="primary">Usuarios</Button></Link>
       </nav>
     </div>
   )
